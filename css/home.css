@@ -92,10 +92,14 @@ body {
   padding-bottom: 50px;
 }
 
-.project-one {
+.project-one,
+.project-two,
+.project-three {
   display: flex;
   flex-direction: row;
   gap: 20px;
+
+  margin-bottom: 40px;
 }
 
 .project-one-image {
@@ -105,13 +109,44 @@ body {
 }
 
 .project-one-title {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
 
+  padding-bottom: 10px;
 }
 
 .project-one-date {
-
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 500;
+  width: fit-content;
+  background-color: black;
+  color: white;
+  
+  border: none;
+  border-radius: 10px;
+  
+  padding: 1px 8px;
+  margin-bottom: 15px;
 }
 
 .project-one-desc {
-  
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 500;
+
+  margin: 0;
+}
+
+.projects-more-btn {
+  width: fit-content;
+  background-color: #FF6464;
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 40px;
 }
