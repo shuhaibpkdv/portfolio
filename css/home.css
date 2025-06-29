@@ -17,7 +17,7 @@ body {
 
 .navbar-nav .nav-item .nav-link {
   font-family: Arial;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: black;
 }
@@ -48,7 +48,7 @@ body {
 
 .banner-desc {
   font-family: Arial;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   
   padding-top: 10px;
@@ -59,7 +59,7 @@ body {
   background-color: #FF6464;
   color: white;
   font-family: Arial;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   border: none;
   border-radius: 7px;
@@ -75,7 +75,7 @@ body {
 .banner-image {
   height: 350px;
   border: none;
-  border-radius: 100px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -86,8 +86,9 @@ body {
 
 .projects-head {
   font-family: Arial;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
 
   padding-bottom: 50px;
 }
@@ -133,7 +134,7 @@ body {
 
 .project-one-desc {
   font-family: Arial;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
 
   margin: 0;
@@ -144,9 +145,34 @@ body {
   background-color: #FF6464;
   color: white;
   font-family: Arial;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   border: none;
   border-radius: 7px;
+
   padding: 10px 40px;
+}
+
+.about-section {
+  padding-bottom: 75px;
+}
+
+.about-head {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+
+  padding-bottom: 50px;
+}
+
+.about-image {
+  height: 350px;
+  border-radius: 10px;
+}
+
+.about-desc {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 500;
 }
