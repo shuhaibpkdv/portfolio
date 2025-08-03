@@ -2,6 +2,8 @@ body {
   margin: 0;
 }
 
+
+/* navbar section */
 .navbar {
   height: 100px;
   margin-bottom: 30px;
@@ -22,6 +24,7 @@ body {
   color: black;
 }
 
+/* banner section */
 .banner-section {
   height: auto;
   padding-top: 100px;
@@ -50,7 +53,7 @@ body {
   font-family: Arial;
   font-size: 18px;
   font-weight: 500;
-  
+
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -79,6 +82,79 @@ body {
   cursor: pointer;
 }
 
+/* about section */
+.about-section {
+  padding-bottom: 75px;
+}
+
+.about-head {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+
+  padding-bottom: 50px;
+}
+
+.about-image {
+  height: 350px;
+  border-radius: 10px;
+}
+
+.about-desc {
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* skills section */
+.skills-section {
+  padding-bottom: 80px;
+}
+
+.skills-section-head {
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: row;
+
+  padding-bottom: 50px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding: 0px 20px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: orange;
+}
+
+.css {
+  width: 80%;
+  background-color: blue;
+}
+
+.javascript {
+  width: 60%;
+  background-color: yellow;
+}
+
+/* projects section */
 .projects-section {
   height: auto;
   padding-bottom: 100px;
@@ -124,10 +200,10 @@ body {
   width: fit-content;
   background-color: black;
   color: white;
-  
+
   border: none;
   border-radius: 10px;
-  
+
   padding: 1px 8px;
   margin-bottom: 15px;
 }
@@ -151,28 +227,4 @@ body {
   border-radius: 7px;
 
   padding: 10px 40px;
-}
-
-.about-section {
-  padding-bottom: 75px;
-}
-
-.about-head {
-  font-family: Arial;
-  font-size: 30px;
-  font-weight: 600;
-  text-align: center;
-
-  padding-bottom: 50px;
-}
-
-.about-image {
-  height: 350px;
-  border-radius: 10px;
-}
-
-.about-desc {
-  font-family: Arial;
-  font-size: 18px;
-  font-weight: 500;
 }
